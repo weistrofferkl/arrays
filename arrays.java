@@ -42,4 +42,20 @@ public class arrays{
 		}return sum;
 
 	}
+	/**
+	 * Threes
+	 * 		Counts how many times three is apparent in the array.
+	 *
+	 * @param nums - the array
+	 *
+	 * @return the ammount of threes in the array
+	 */
+	public static int threes(int[] nums){
+		int counter = 0;
+		for(int i = 0; i<nums.length; i++){
+			if(counter == 3){
+				counter++;
+			}
+		}return counter;
+	}
 }
